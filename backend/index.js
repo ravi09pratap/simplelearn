@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://pawanpc044_db_user:U2PuRhNnQFoem99V@cluster0.xxxxx.mongodb.net/testdb?retryWrites=true&w=majority"
+  "mongodb+srv://pawanpc044_db_user:U2PuRhNnQFoem99V@cluster0.k0n56y4.mongodb.net/?appName=Cluster0"
 );
 
 const User = mongoose.model("User", {
